@@ -1,0 +1,159 @@
+body {
+  font-family: Source Sans Pro;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #39373c;
+  text-align: left;
+}
+
+.reference {
+  text-align: left;
+}
+
+h1, h2,p,.list {
+  font-family: "Proxima Nova", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.0125em;
+    font-weight: 300;
+    color: #414042;
+}
+
+h1 {
+  margin-bottom: 15px;
+  line-height: 1.1;
+
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.nav-link {
+  display: block;
+  padding: .25rem .75rem;
+}
+
+.field_assists_logo {
+  width: 170px;
+  height: auto;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  cursor: pointer;
+}
+
+.column1 {
+  font-family: "Proxima Nova", "Helvetica", "Arial", sans-serif;
+  float: left;
+  width: 20%;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.column2 {
+  width: 80%;
+  padding: 30px;
+}
+.screen-image {
+  length: auto;
+  width: 85%;
+}
+.search__link-icon {
+    background-image: url(../../images/icons/search.svg);
+    background-size: 23px 31.5px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.search {
+  length: auto;
+  width: 10%;
+}
+#small-heading{
+  font-weight: bold;
+}
+#small-heading1{
+  font-weight: bold;
+  font-style: italic;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  width: 3%;
+  height: 5%;
+  bottom: 20px;
+  right: 95%;
+  z-index: 99;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+   border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color:#818386;
+}
+
+
+.btn-chat{
+  border:none;
+  padding:;
+  text-transform: uppercase;
+  font-size: 15px;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 5%;
+}
+#chatbox{
+  display:none;
+  border: 3px ;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 9;
+  border-radius: 30%;
+
+}
+.form-container{
+  max-width: 300px;
+  padding: 10px;
+  background: #cac5c5;
+
+}
+.form-container textarea{
+  width: 70%;
+  min-height:100px;
+  border: none;
+  resize: none;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  background: #f1f1f1;
+  font-size: 15px;
+
+}
+.form-container textarea:focus{
+  background: #ddd;
+  outline: none;
+}
+.btn-send, .btn-close{
+  padding:;
+  font-size: 20px;
+  margin-bottom: 5px;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+}
+#msgtext{
+  width: 275px;
+  height: 100px;
+}
